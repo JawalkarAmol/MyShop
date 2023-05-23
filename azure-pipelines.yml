@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'windows-latest'
+  #vmImage: 'windows-latest'
   name: myAgentpool
   demands:
     - agent.name -equals myAgentpool
