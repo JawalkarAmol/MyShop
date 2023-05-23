@@ -8,6 +8,9 @@ trigger:
 
 pool:
   vmImage: 'windows-latest'
+  name: myAgentpool
+  demands:
+    - agent.name -equals myAgentpool
 
 variables:
   solution: '**/*.sln'
