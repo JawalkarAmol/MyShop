@@ -10,7 +10,7 @@ pool:
   #vmImage: 'windows-latest'
   name: myAgentpool
   demands:
-    - agent.name -equals myAgent
+    - agent.name -equals myNewAgent
 
 variables:
   solution: '**/*.sln'
